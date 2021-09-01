@@ -1,0 +1,43 @@
+!<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>IDS Assessment Game Prototype</title>
+    <link rel="stylesheet" href="game.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="card">
+            <button id="typeGenerator" type="button" class="btn btn-lg btn-outline-primary selector-button" onClick="generateType()">Generate Type</button>
+            <p id="type" class="content">Click button to generate type</p>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card">
+            <button id="subjectGenerator" type="button" class="btn btn-lg btn-outline-primary selector-button" onClick="generateSubject()">Generate Subject</button>
+            <p id="subject" class="content">Click button to generate subject</p>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card">
+            <button id="exemplarGenerator" type="button" class="btn btn-lg btn-outline-primary selector-button" onClick="generateExample()">Generate Example</button>
+            <p id="example" class="content">Click button to generate example</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p value="0" max="90" id="timer" class="justify-content-center">
+          <button type="button" class="btn btn-lg btn-primary" onclick="startTimer()">Start</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="game.js"></script>
+  </body>
+</html>

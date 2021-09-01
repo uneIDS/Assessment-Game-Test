@@ -1,0 +1,41 @@
+body {
+  background-image: url('https://media.istockphoto.com/photos/natural-wood-texture-picture-id1145602814?k=20&m=1145602814&s=612x612&w=0&h=dIJlMEyULYudmRnJZUSoOwfcF1nLBWWwHrjP764kM3s=');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border: 5px solid grey;
+  border-radius: 10px;
+  margin-top: 10%;
+  box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 0.4em 0.5em 0 -0.25em #f2f2f2, 0.4em 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.3), 0.8em 1em 0 -0.5em #e5e5e5, 0.8em 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
+}
+
+.selector-button {
+  margin: 10% auto 10% auto;
+}
+
+.content {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.values {
+  color: white;
+  font-size: 2em;
+}
+
+#timer {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  margin: 8% auto 8% auto;
+}
